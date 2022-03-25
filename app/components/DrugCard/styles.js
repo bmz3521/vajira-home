@@ -1,0 +1,200 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  linearGradient: {
+    backgroundColor: '#0A7C53',
+    borderBottomLeftRadius: 19,
+    borderBottomRightRadius: 19,
+    paddingBottom: 8,
+    paddingTop: 8,
+    marginBottom: 10,
+  },
+  container: {
+    flex: 1,
+  },
+  row: {
+    flexDirection: 'row',
+    flex: 1,
+  },
+  bottomCard: {
+    flexDirection: 'row',
+    backgroundColor: '#fff',
+    paddingLeft: 25,
+    paddingRight: 25,
+    paddingVertical: 15,
+    marginBottom: 25,
+    alignItems: 'center',
+  },
+  imageContainer: {
+    shadowColor: '#c0c0c0',
+    shadowOffset: { width: 1, height: 7 },
+    shadowOpacity: 1,
+    shadowRadius: 5,
+    elevation: 8,
+    marginBottom: 15,
+  },
+  iconImage: {
+    width: 36,
+    height: 20,
+    marginRight: 15,
+  },
+  settingImage: {
+    width: 20,
+    height: 20,
+    marginRight: 5,
+  },
+  eatTimeImage: {
+    width: 40,
+    height: 21,
+    marginRight: 10,
+  },
+  setting: {
+    flexDirection: 'row',
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 12,
+    padding: 10,
+  },
+  drugImage: {
+    width: 70,
+    height: 70,
+    borderRadius: 12,
+    marginRight: 10,
+  },
+  name: {
+    textAlign: 'center',
+    marginRight: 20,
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#0A5C3E',
+  },
+  ageContainer: {
+    paddingBottom: 20,
+  },
+  age: {
+    textAlign: 'center',
+    marginTop: 2,
+    fontSize: 14,
+    color: '#A2A2A2',
+  },
+  icon: {
+    fontSize: 18,
+    width: 25,
+    color: '#0A5C3E',
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: 16,
+    lineHeight: 26,
+    color: '#575757',
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  subtitle: {
+    marginLeft: 5,
+  },
+  mainContainer: {
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  subContainer: {
+    marginLeft: 20,
+    marginRight: 25,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  status: {
+    flexDirection: 'row',
+  },
+  listContainer: {
+    marginHorizontal: 20,
+    marginBottom: 20,
+    marginTop: 5,
+    borderRadius: 14,
+    backgroundColor: '#fff',
+    shadowColor: '#c0c0c0',
+    shadowOffset: { width: 1, height: 7 },
+    shadowOpacity: 1,
+    shadowRadius: 5,
+    elevation: 8,
+  },
+  noDrugListContainer: {
+    marginHorizontal: 20,
+    marginBottom: 20,
+    marginTop: 5,
+    borderColor: '#E5E5E5',
+    borderRadius: 14,
+    backgroundColor: '#C4C4C4',
+  },
+  itemContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    padding: 10,
+    backgroundColor: '#fff',
+  },
+  leftContainer: {
+    flex: 1,
+    flexDirection: 'row',
+  },
+  rightContainer: {
+    flex: 1,
+    alignItems: 'flex-end',
+  },
+  leftValue: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#095394',
+    flexWrap: 'wrap',
+  },
+  rightValueTop: {
+    color: '#095394',
+    fontSize: 14,
+    fontWeight: 'normal',
+  },
+  rightValue: {
+    fontSize: 16,
+    color: '#095394',
+    fontWeight: 'bold',
+  },
+  lineContainer: {
+    flexDirection: 'row',
+  },
+  line: {
+    backgroundColor: '#E5E5E5',
+    height: 1,
+    flex: 1,
+    alignSelf: 'center',
+  },
+  take: {
+    flex: 1,
+    width: '100%',
+    height: 60,
+    padding: 15,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    alignSelf: 'center',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  noDrugContainer: {
+    flex: 1,
+    width: '100%',
+    height: 60,
+    padding: 15,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    alignSelf: 'center',
+  },
+  noDrugText: {
+    color: '#544f4f',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
+
+export default styles;

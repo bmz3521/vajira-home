@@ -1,0 +1,76 @@
+import React from 'react';
+import { StyleSheet } from 'react-native';
+import { BaseColor } from '@config';
+
+export default StyleSheet.create({
+  contentTitle: {
+    alignItems: 'flex-start',
+    width: '100%',
+    height: 32,
+    justifyContent: 'center',
+  },
+  contain: {
+    alignItems: 'center',
+    padding: 20,
+    width: '100%',
+  },
+  buttonHelp: {
+    height: 50,
+    justifyContent: 'center',
+    backgroundColor: BaseColor.fieldColor,
+    borderRadius: 5,
+    padding: 10,
+    width: '100%',
+    color: BaseColor.grayColor,
+    marginBottom: 5,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.27,
+    shadowRadius: 4.65,
+    elevation: 6,
+  },
+  thumb: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginBottom: 20,
+  },
+  profileItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderBottomColor: BaseColor.textSecondaryColor,
+    borderBottomWidth: 1,
+    paddingBottom: 20,
+    width: '100%',
+    paddingTop: 20,
+  },
+  searchForm: {
+    flexDirection: 'row',
+    paddingVertical: 15,
+    padding: 10,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: BaseColor.fieldColor,
+    backgroundColor: BaseColor.whiteColor,
+    width: '90%',
+    shadowColor: 'black',
+    shadowOffset: { width: 1.5, height: 1.5 },
+    shadowOpacity: 1,
+    shadowRadius: 5,
+    elevation: 30,
+    padding: 10,
+    backgroundColor: 'white',
+    marginHorizontal: 20,
+    shadowOffset: { width: 0, height: 0 },
+    shadowColor: 'black',
+    shadowOpacity: 0.2,
+  },
+  lineRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+});

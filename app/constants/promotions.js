@@ -1,0 +1,3 @@
+export const GET_PROMOTIONS_REQUEST = 'app/Promotions/GET_PROMOTIONS_REQUEST';
+export const GET_PROMOTIONS_FAILURE = 'app/Promotions/GET_PROMOTIONS_FAILURE';
+export const GET_PROMOTIONS_SUCCESS = 'app/Promotions/GET_PROMOTIONS_SUCCESS';

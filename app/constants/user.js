@@ -1,0 +1,8 @@
+export const GET_USER_REQUEST = 'app/User/GET_USER_REQUEST';
+export const GET_USER_SUCCESS = 'app/User/GET_USER_SUCCESS';
+export const GET_USER_FAILURE = 'app/User/GET_USER_FAILURE';
+export const GET_UPDATE_INFO_REQUEST = 'app/User/GET_UPDATE_INFO_REQUEST';
+export const GET_UPDATE_INFO_SUCCESS = 'app/User/GET_UPDATE_INFO_SUCCESS';
+export const GET_UPDATE_INFO_FAILURE = 'app/User/GET_UPDATE_INFO_FAILURE';
+export const LOGOUT_REQUEST = 'app/User/LOGOUT_REQUEST';
+export const LOGOUT_SUCCESS = 'app/User/LOGOUT_SUCCESS';

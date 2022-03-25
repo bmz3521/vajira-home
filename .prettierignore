@@ -1,0 +1,10 @@
+.vscode
+android/
+app/assets/
+EverOMA/
+ios/
+node_modules/
+
+package-lock.json
+yarn.lock
+package.json

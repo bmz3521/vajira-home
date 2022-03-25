@@ -1,0 +1,20 @@
+export const LOGIN_REQUEST = 'app/Auth/LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'app/Auth/LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'app/Auth/LOGIN_FAILURE';
+
+export const REGISTER_REQUEST = 'app/Auth/REGISTER_REQUEST';
+export const REGISTER_SUCCESS = 'app/Auth/REGISTER_SUCCESS';
+export const REGISTER_FAILURE = 'app/Auth/REGISTER_FAILURE';
+
+export const LOGOUT_REQUEST = 'app/Auth/LOGOUT_REQUEST';
+export const LOGOUT_SUCCESS = 'app/Auth/LOGOUT_SUCCESS';
+
+export const LOGOUT_TELE_REQUEST = 'app/Auth/LOGOUT_TELE_REQUEST';
+export const LOGOUT_TELE_SUCCESS = 'app/Auth/LOGOUT_TELE_SUCCESS';
+
+export const IS_AUTH_REQUEST = 'app/Auth/IS_AUTH_REQUEST';
+export const IS_AUTH_SUCCESS = 'app/Auth/IS_AUTH_SUCCESS';
+
+export const THIRD_PARTY_LOGIN_REQUEST = 'app/Auth/THIRD_PARTY_LOGIN_REQUEST';
+export const THIRD_PARTY_LOGIN_SUCCESS = 'app/Auth/THIRD_PARTY_LOGIN_SUCCESS';
+export const THIRD_PARTY_LOGIN_FAILURE = 'app/Auth/THIRD_PARTY_LOGIN_FAILURE';

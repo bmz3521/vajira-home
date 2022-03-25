@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PlanRn.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B3E66F4CC4BD064FEF663E95068D716857B66D80</string>
+				<key>dateExpires</key>
+				<string>26/10/2564 BE</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B3E66F4CC4BD064FEF663E95068D716857B66D80</string>
+						<key>dateExpires</key>
+						<string>26/10/2564 BE</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>TwilioVideo.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>N6J4QE7RP5</string>
+						<key>name</key>
+						<string>CHOMASOFT COMPANY LIMITED</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>N6J4QE7RP5.com.everapp.vajira</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>N6J4QE7RP5</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>N6J4QE7RP5.com.everapp.vajira</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>PlanRn.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>8b9571f8-13af-494d-967e-62427a4a607d</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.everapp.vajira</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>N6J4QE7RP5</string>
+				<key>name</key>
+				<string>CHOMASOFT COMPANY LIMITED</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

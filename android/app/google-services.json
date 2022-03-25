@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564454725768",
+    "firebase_url": "https://vajira-smart-hospital.firebaseio.com",
+    "project_id": "vajira-smart-hospital",
+    "storage_bucket": "vajira-smart-hospital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564454725768:android:32c92e252e2625c059273d",
+        "android_client_info": {
+          "package_name": "com.planrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564454725768-6462b0cog8lekgiv6i26480ghjgiutbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBozIAMjXYFoaKHoYvr0VgvpdnNvEk-oYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564454725768-6462b0cog8lekgiv6i26480ghjgiutbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "564454725768-74ekjuevet2ukhifssf3rj8vm74i2smf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.everapp.vajira"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
